@@ -1,0 +1,100 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+   
+}
+
+/* Header */
+
+.productosVa {
+    display: grid;
+    grid-template-rows: 80vh 80vh 80vh 80vh;
+}
+.audiImg{
+width: 600px;
+height: 500px;
+
+}
+
+
+.botonAtras1  {
+    border: solid 3px black;
+    padding: 1vw;
+    font-size: 1vw;
+    border-radius: 15%;
+    color: blue;
+    background-color: gray;
+}
+.encabezado {
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    background: none;
+}
+.logo a img{
+    width: 5rem;
+    border: 7px solid black;
+    border-radius: 10%;
+    border-style: double;
+}
+.logoTitulo{ 
+
+    font-size: 3rem; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 10vw;
+    background: none;
+}
+
+.chango { 
+    position: fixed;
+
+    left: 90%;
+}
+
+.buscador { 
+
+    position: absolute;
+    top: 3.5%;
+    left: 70%;
+}   
+.buscador input{ 
+
+    width: 15vw;
+
+    height: 3vh;
+}
+
+.botonCompras {
+
+    font-weight: bold;
+    border-radius: 10%;
+    font-size: 1rem;
+    padding: 5px;
+    background: none;
+    background-color: green;
+    color: white;
+    }
+    
+/* Footer */   
+
+.pie{ 
+    
+
+    display: grid;
+    grid-template-columns: 15% 65% 19%;
+    position: fixed;
+    top: 90vh;
+    width: 100%;
+    background-color: bisque;
+}
+
+
+.pie h4{
+
+    color: red;
+    text-decoration-line: underline;
+    font-size: 2rem;
+}

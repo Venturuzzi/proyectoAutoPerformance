@@ -1,0 +1,112 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+   
+}
+
+/* Barra Navegacion */
+
+.barraMarcas {
+display: flex;
+padding: 10%;
+justify-content: space-around;
+background: none;
+
+}
+
+.linkMarcas {
+border: 5px solid black;
+border-radius: 10%;
+width: 20%;
+background: gray;
+
+}
+
+.imgM {
+width: 60%;
+
+
+}
+
+.textP {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    font-size: 150%;
+}
+
+/* Header */
+
+.encabezado {
+    
+        display: grid;
+        grid-template-columns: 10% 40% 40% ;
+        padding: 10px;
+    
+}
+.logo a img{
+    width: 5rem;
+    border: 7px solid black;
+    border-radius: 10%;
+    border-style: double;
+    
+    
+}
+.logoTitulo{ 
+    font-size: 3rem; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block; 
+    position: relative;
+    left: 10vw;
+    background: none;
+    
+}
+
+.topEncabezado label{
+    position: fixed;
+    left: 90vw;
+    
+}
+.topEncabezado form {
+position: relative;
+left: 50vw;
+}
+.topEncabezado img,form{
+    display: inline-block;
+    
+}
+
+
+
+.botonAtras1  {
+    border: solid 3px black;
+    padding: 1vw;
+    font-size: 1vw;
+    border-radius: 15%;
+    color: blue;
+    background-color: gray;
+    
+}
+ /* Footer */   
+
+ .pie{ 
+    
+    
+    display: grid;
+    grid-template-columns: 15% 65% 19%;
+    position: fixed;
+    top: 85vh;
+    width: 100%;
+    background-color: bisque;
+}
+
+
+.pie h4{
+
+    color: red;
+    text-decoration-line: underline;
+    font-size: 2rem;
+}

@@ -1,0 +1,231 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+
+.ordenIndex {
+
+    display: grid;
+    grid-template-rows: 8% 3% 5% 77% ;
+    grid-template-areas: "header" "main"  "footer";
+}
+
+
+/* Main */
+
+.caja {
+
+    grid-area: main;
+    grid-template-rows: 5% 47% 48%;
+    grid-template-areas: 
+
+
+    "barranavegacion"  "productosOF" "productoIn";
+    
+}
+
+/* Barra Navegacion */
+
+.barra {
+
+    grid-area: barranavegacion;
+    display: grid;
+    grid-template-columns: 35% 20% 20%;
+    justify-content: space-between;
+   
+    
+
+}
+
+.link {
+
+    text-decoration: none;
+    background: none;
+    background-color: grey;
+    border: solid black;
+    border-radius: 5%;
+    color: azure;
+    font-weight: bold;
+
+}
+
+.textBarra { 
+
+    background: none;
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: normal;
+}
+
+/* Seccion Ofertas */
+
+.tituloOfertas {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: 5px solid black;
+    border-style: double;
+    padding: 5px;
+    background: grey;
+    
+    
+}
+
+.secOfertas {
+
+    grid-area: productosOf;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-around;
+    background: none;
+   
+    
+}
+
+.botonCompras {
+    font-weight: bold;
+    border-radius: 10%;
+    font-size: 1rem;
+    padding: 5px;
+    background: none;
+    background-color: green;
+    color: white;
+}
+
+.ofertas img{
+
+    width:  100%;
+    height: 100%;
+}
+.ofertas { 
+
+    border: solid 4px black;
+    border-radius: 10%;
+    display: grid;
+    grid-template-columns:  60% 40% ;
+    grid-template-rows: 80%;
+    text-align: center;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.ofertas p { 
+
+    background: none;
+    overflow: hidden;
+}
+
+.ofertasTitulo{ 
+    background: none;
+    
+}
+
+/* Seccion Ingreso */
+
+.tituloIngreso {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: 5px solid black;
+    border-style: double;
+    padding: 5px;
+    background: gray;
+    
+}
+.secIngreso {
+    grid-area: productosIn;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-around;
+    background: none;
+    
+  
+}
+.ingreso {
+    border: solid 4px black;
+    border-radius: 10%;
+    display: grid;
+    grid-template-columns:  60% 40% ;
+    grid-template-rows: 80%;
+    overflow: auto;
+    text-align: center;
+    padding: 20px;
+    align-items: flex-start;
+    }
+
+    .ingreso Img {
+        width:  100%;
+        height: 100%;
+    }
+    
+    
+      
+/* Header */
+
+header {
+
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 10% 40% 40% ;
+    padding: 10px;
+}
+
+.logo a img{
+    width: 5rem;
+    border: 7px solid black;
+    border-radius: 10%;
+    border-style: double;
+}
+
+.logoTitulo{ 
+
+    font-size: 3rem; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 10vw;
+    background: none;
+}
+
+.chango { 
+    position: fixed;
+
+    left: 90%;
+}
+
+.buscador { 
+
+    position: absolute;
+    top: 3.5%;
+    left: 70%;
+}   
+.buscador input{ 
+
+    width: 15vw;
+
+    height: 3vh;
+}
+  /* Footer */   
+
+
+.pie{ 
+    
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 15% 65% 19%;
+    position: relative;
+    top: 109vh;
+    width: 100%;
+    background-color: bisque;
+}
+
+
+.pie h4{
+
+    color: red;
+    text-decoration-line: underline;
+    font-size: 2rem;
+}

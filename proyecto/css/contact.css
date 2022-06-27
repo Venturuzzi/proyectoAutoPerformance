@@ -1,0 +1,87 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+/* Header */
+
+.encabezado {
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    background: none;
+}
+.logo a img{
+    width: 5rem;
+    border: 7px solid black;
+    border-radius: 10%;
+    border-style: double;
+}
+
+.logoTitulo{ 
+
+    font-size: 3rem; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 10vw;
+    background: none;
+}
+
+/* Main */
+
+.botonAtras1  {
+    border: solid 3px black;
+    padding: 1vw;
+    font-size: 1vw;
+    border-radius: 15%;
+    color: blue;
+    background-color: grey;
+}
+
+.mensaje1 { 
+text-align: center;
+text-decoration: double;
+border: solid 4px black;
+background-color: grey;
+}
+
+#contactoCliente   { 
+display: flex;
+flex-direction: column;
+padding: 5vw;
+border: solid 4px black;
+align-items: center;
+font-size: 135%;
+}
+
+
+#contactoCliente label,.email,.tel,.promo,.boton,.nombreApellido,.textCliente {
+
+    background: none;
+    font-style: initial;
+
+}
+
+/* Footer */   
+
+.pie{ 
+    
+
+    display: grid;
+    grid-template-columns: 15% 65% 19%;
+    position: fixed;
+    top: 90vh;
+    width: 100%;
+    background-color: bisque;
+}
+
+
+.pie h4{
+
+    color: red;
+    text-decoration-line: underline;
+    font-size: 2rem;
+}

@@ -1,0 +1,70 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+  
+}
+/* Header */
+
+header {
+
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 10% 40% 40% ;
+    padding: 3px;
+}
+
+.logo a img{
+    width: 5rem;
+    border: 7px solid black;
+    border-radius: 10%;
+    border-style: double;
+}
+
+.logoTitulo{ 
+
+    font-size: 3rem; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 10vw;
+    background: none;
+}
+/* Main */ 
+
+.botonAtras1  {
+    border: solid 3px black;
+    padding: 1vw;
+    font-size: 1vw;
+    border-radius: 15%;
+    color: blue;
+}
+.video { 
+display: grid;
+grid-template-rows: 60% 20% 10%;
+justify-content: space-around;
+padding: 5vw;
+align-items: center;
+}
+
+
+/* Footer */   
+
+.pie{ 
+    
+    
+    display: grid;
+    grid-template-columns: 15% 65% 19%;
+    position: fixed;
+    top: 85vh;
+    width: 100%;
+    background-color: bisque;
+}
+
+
+.pie h4{
+
+    color: red;
+    text-decoration-line: underline;
+    font-size: 2rem;
+}
