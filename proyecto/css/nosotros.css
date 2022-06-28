@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     box-sizing: border-box;
-  
+    background: radial-gradient(blue red);
+    
 }
 /* Header */
 
@@ -20,6 +21,7 @@ header {
     border: 7px solid black;
     border-radius: 10%;
     border-style: double;
+
 }
 
 .logoTitulo{ 
@@ -47,7 +49,35 @@ padding: 5vw;
 align-items: center;
 }
 
+.video1:hover {
+    transform: scale(2);
+    transition-duration: 2s;
 
+}
+
+.textVideo { 
+text-shadow: 10px 10px  red;
+}
+
+.lema {
+animation-name: lemamovimiento;
+animation-duration: 5s;
+transform: translatey(4vh);
+}
+@keyframes lemamovimiento {
+25%{
+
+transform: scale(2);
+}
+50%{
+    text-decoration: red;
+}
+}
+
+.titlema {
+transform: scale(2.5);
+text-align: center;
+}
 /* Footer */   
 
 .pie{ 
@@ -56,9 +86,10 @@ align-items: center;
     display: grid;
     grid-template-columns: 15% 65% 19%;
     position: fixed;
-    top: 85vh;
+    top: 90vh;
     width: 100%;
-    background-color: bisque;
+    /*background-color: bisque;*/
+    background-color: linear-gradient(grey 40%  rgb(235, 9, 9) 60%s);
 }
 
 

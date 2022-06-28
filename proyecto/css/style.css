@@ -217,7 +217,7 @@ header {
     display: grid;
     grid-template-columns: 15% 65% 19%;
     position: relative;
-    top: 109vh;
+    top: 130vh;
     width: 100%;
     background-color: bisque;
 }
