@@ -1,44 +1,24 @@
-*{ 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    box-sizing: border-box;
-    background: radial-gradient(blue red);
-    
-}
-/* Header */
 
 
+/* Header*/
+header {
 
-/*
-.logo a img{
-    width: 5rem;
-    border: 7px solid black;
-    border-radius: 10%;
-    border-style: double;
-
-}
-
-.logoTitulo{ 
-
-    font-size: 3rem; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
-    left: 10vw;
-    background: none;
+    padding: 1rem;
 }
+
 /* Main */ 
 
-.col-12  {
+.row-1 {
     border: solid 3px black;
     padding: 1vw;
     font-size: 1vw;
     border-radius: 15%;
     color: blue;
 }
-conteiner-fluid {
+.conteiner-fluid {
 position: relative;
-justify-content: center;
+left: 30vw;
 }
 
 iframe:hover {
@@ -75,4 +55,15 @@ text-align: center;
 footer { 
     position: relative;
     background-color: bisque;
+    top: 13vw;
 }
+.imgTurbo { 
+
+    width: 30rem;
+    height: 10rem;
+    }
+    
+    footer img {
+    width: 3rem;
+    height: 3rem;
+    }
