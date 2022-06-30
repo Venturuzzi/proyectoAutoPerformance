@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/nosotros.css">
     <title>nosotros</title>
 </head>
 <body>
 
     <!-- Header -->                                 
-    <header class="encabezado">
-        <div class="logo">
-    <a href="../proyecto/index.html"><img src="./img/icons8-turbocompresor-50.png" alt="turbo"></a>
-        </div>
+    <header class="conteiner-fluid">
 
-    <h1 class="logoTitulo">Autoperformance</h1>
-        
-        <hr>
-
+        <div class="row">  
+    
+            <!-- <div class="logo"> -->  
+           <a href="../proyecto/index.html" class="col-1"><img class="col-10" src="./img/icons8-turbocompresor-50.png" alt="turbo"></a>
+           <!-- </div> -->  
+    
+           <h1 class="col-4">Autoperformance</h1>
+        </div>   
     </header>
 
-    <div>
+    <div class="row">
     
-        <a href="./index.html"><button> <p class="botonAtras1">Atras</p></button></a>
+        <a href="./index.html"><button> <p class="col-12" >Atras</p></button></a>
  
     </div>
     <!-- Main -->  
@@ -32,16 +34,16 @@
 
 
 
-<article class="video">
+<article class="conteiner-fluid">
     
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nVFAUsj8DJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video1"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nVFAUsj8DJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="row"></iframe>
 
-<p class="textVideo">Un pequeño video de nuestros proyectos personalizados y terminados con nuestros productos</p>
-<br>
-<p class="titlema">Nos dedicamos a brindar productos de la mejor calidad y performance</p>
+<p class="row">Un pequeño video de nuestros proyectos personalizados y terminados con nuestros productos</p>
 
-<p class="lema">Todos nuestros producto no solo brindan las mejores prestaciones sino de la mejor calidad.</p>
- <br>
+<p class="row">Nos dedicamos a brindar productos de la mejor calidad y performance</p>
+
+<p class="row">Todos nuestros producto no solo brindan las mejores prestaciones sino de la mejor calidad.</p>
+ 
 
 </article>
 
@@ -49,28 +51,30 @@
 
 
 <!-- Footer -->  
-<footer class="pie">
+<footer class="container-fluid">
     
-    
-    <div class="logoFooter">
+
+    <div class="row">
       
-        <h3>Autoperformance</h3>
-      <img src="./img/icons8-turbocompresor-50.png" alt="turbo">
+        <h3 class="col-2">Autoperformance</h3>
+      <img class="col-1" src="./img/icons8-turbocompresor-50.png" alt="turbo">
 
       
-    </div>
+    
 
-       <h4>amor por la velocidad...</h4>
+       <h4 class="col-3">amor por la velocidad...</h4>
 
        
-    <div class="imgRedes">
-        <h2>Nuestras redes</h2>
+    
+        <h2 class="col-2">Nuestras redes</h2>
 
-        <a href="https://www.facebook.com/" ><img src="./img/icons8-facebook-50.png" alt="facebook"></a>
-        <a href="https://www.instagram.com/"><img src="./img/icons8-instagram-50.png" alt="instagram"></a>
-        <a href="https://www.whatsapp.com/?lang=es"><img src="./img/icons8-whatsapp-50.png" alt="whatsapp"></a>
+        <a href="https://www.facebook.com/"  class="col-1"><img src="./img/icons8-facebook-50.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/" class="col-1"><img src="./img/icons8-instagram-50.png" alt="instagram"></a>
+        <a href="https://www.whatsapp.com/?lang=es" class="col-1"><img src="./img/icons8-whatsapp-50.png" alt="whatsapp"></a>
     
     </div>
 
+</footer>
+<script src="./js/bootstrap.js"></script>
 </body>
 </html>

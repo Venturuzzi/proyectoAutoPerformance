@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>carperformance</title>
 </head>
@@ -12,48 +13,51 @@
 
     <!-- Header -->        
 
-    <header class="encabezado">
-        <div class="logo">
-    <a href="../proyecto/index.html"><img src="./img/icons8-turbocompresor-50.png" alt="turbo"></a>
-        </div>
+<header class="conteiner-fluid">
 
-    <h1 class="logoTitulo">Autoperformance</h1>
+    <div class="row">  
+
+        <!-- <div class="logo"> -->  
+       <a href="../proyecto/index.html" class="col-1"><img class="" src="./img/icons8-turbocompresor-50.png" alt="turbo"></a>
+       <!-- </div> -->  
+
+       <h1 class="col-3">Autoperformance</h1>
     
 
-<form class="buscador">
+ <!--<form class="buscador"> --> 
 
-    <input type="text" id="buscar" placeholder="Buscar">
+       <input type="text" id="buscar" placeholder="Buscar" class="col-3">
 
 
-</form>
+ <!--</form>--> 
 
-   <div class="chango">
-       <label for="Chango"><img src="./img/icons8-carrito-de-la-compra-cargado.gif" width="50" alt="Chango"></label>
-   </div>
+  <!-- <div class="chango"> -->  
+       <img src="./img/icons8-carrito-de-la-compra-cargado.gif" width="50" alt="Chango" class="col-1">
+  <!-- </div>-->  
+    </div>  
 
 </header>
 
 <!-- Main -->  
 
-<main class="caja">
+<main class="container-fluid">
 
-<div class="grid-1">
+<div class="row">
 
-<div class="barra">
-    <a href="./productos.html" class="link"> <p class="textBarra"> Productos</p> </a>
-    <a href="./nosotros.html" class="link"><p class="textBarra">Nosotros</p></a>
-    <a href="./contacto.html" class="link"><p class="textBarra">Contacto</p></a>
+    <a href="./productos.html" class="link" class="col-4">Productos</a>
+    <a href="./nosotros.html" class="link" class="col-4">Nosotros</a>
+    <a href="./contacto.html" class="link" class="col-4">Contacto</a>
 </div>
 
-        <div class="tituloOfertas">
+        <div class="row">
 
-            <h1>Ofertas</h1>
+            <h1 class="tituloOfertas">Ofertas</h1>
 
         </div>
         
-        <section class="secOfertas" >
+        <section class="row" >
 
-        <div class="ofertas">
+        <div class="col-4">
         
             <img src="./img/piston10.jpg"  alt="piston" class="ofertasImg">
             <h2 class="ofertasTitulo">Pistones Forjados 35X</h2>
@@ -62,7 +66,7 @@
             
         </div>
 
-        <div class="ofertas">
+        <div class="col-4">
             <img src="./img/BUJIAS-NGK.png"  alt="bujias" class="ofertasImg">
             <h2 class="ofertasTitulo">Bujias NKG Iridium</h2>
             <p class="ofertasDescrip">Compatible con los Vag (Vw - Audi - Seat) 2.0TSI / TFSI / Bujias NGK Iridium</p>
@@ -70,7 +74,7 @@
             
         </div>
         
-        <div class="ofertas">
+        <div class="col-4">
         
             <img src="./img/450_450-FT-000535_1.jpeg"  alt="inyectores" class="ofertasImg">
             <h2 class="ofertasTitulo">Inyectores Red Fueltech</h2>
@@ -82,39 +86,39 @@
     </section>
 
   
-    <div class="tituloIngreso">
+    <div class="row">
        
-        <h1 >Nuevos Ingresos </h1>
+        <h1 class="tituloIngreso" >Nuevos Ingresos </h1>
 
     </div>
 
 
-<section class="secIngreso">
+<section class="row">
 
-<div class="ingreso">
+<div class="col-4">
 
    
-   <img src="./img/bodykit.jpg"  alt="body kit tt" class="ingresoImg">
+   <img src="./img/bodykit.jpg"  alt="body kit tt" class="ofertasImg">
    <h2 class="ofertasTitulo">Audi tt</h2>
    <p class="ofertasDescrip">Bumper kit - tt 8s 2015 MOD. TTRS</p>
    <button class="botonCompras">Comprar</button>
   
 </div>
 
-<div class="ingreso">
+<div class="col-4">
 
     
-    <img src="./img/bodya5.jpg"  alt="body kit A4" class="ingresoImg">
+    <img src="./img/bodya5.jpg"  alt="body kit A4" class="ofertasImg">
     <h2 class="ofertasTitulo">Audi A5</h2>
     <p class="ofertasDescrip">Bumper kit - Audi a5 2013-2015 B8</p>
     <button class="botonCompras">Comprar</button>
     
  </div>
 
- <div class="ingreso">
+ <div class="col-4">
 
     
-    <img src="./img/body a4.jpg"  alt="body kit A4" class="ingresoImg">
+    <img src="./img/body a4.jpg"  alt="body kit A4" class="ofertasImg">
     <h2 class="ofertasTitulo">Audi A4</h2>
     <p class="ofertasDescrip">Bumper kit - Audi a5 2013-2015 B8</p>
     <button class="botonCompras">Comprar</button>
@@ -129,34 +133,33 @@
 </thead>
 
 </main>
-</div> 
 
 <!-- Footer -->  
 
-<footer class="pie">
+<footer class="container-fluid">
     
 
-    <div class="logoFooter">
+    <div class="row">
       
-        <h3>Autoperformance</h3>
-      <img src="./img/icons8-turbocompresor-50.png" alt="turbo">
+        <h3 class="col-2">Autoperformance</h3>
+      <img class="col-1" src="./img/icons8-turbocompresor-50.png" alt="turbo">
 
       
-    </div>
+    
 
-       <h4>amor por la velocidad...</h4>
+       <h4 class="col-3">amor por la velocidad...</h4>
 
        
-    <div class="imgRedes">
-        <h2>Nuestras redes</h2>
+    
+        <h2 class="col-2">Nuestras redes</h2>
 
-        <a href="https://www.facebook.com/" ><img src="./img/icons8-facebook-50.png" alt="facebook"></a>
-        <a href="https://www.instagram.com/"><img src="./img/icons8-instagram-50.png" alt="instagram"></a>
-        <a href="https://www.whatsapp.com/?lang=es"><img src="./img/icons8-whatsapp-50.png" alt="whatsapp"></a>
+        <a href="https://www.facebook.com/"  class="col-1"><img src="./img/icons8-facebook-50.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/" class="col-1"><img src="./img/icons8-instagram-50.png" alt="instagram"></a>
+        <a href="https://www.whatsapp.com/?lang=es" class="col-1"><img src="./img/icons8-whatsapp-50.png" alt="whatsapp"></a>
     
     </div>
 
 </footer>
-
+<script src="./js/bootstrap.js"></script>
 </body>
 </html>
