@@ -8,67 +8,37 @@
 
 /* Header */
 
-.productosVa {
-    display: grid;
-    grid-template-rows: 80vh 80vh 80vh 80vh;
-}
-.audiImg{
-width: 600px;
-height: 500px;
 
-}
+header {
 
-
-.botonAtras1  {
-    border: solid 3px black;
-    padding: 1vw;
-    font-size: 1vw;
-    border-radius: 15%;
-    color: blue;
-    background-color: gray;
-}
-.encabezado {
-    padding: 30px;
-    display: flex;
-    justify-content: flex-start;
-    background: none;
-}
-.logo a img{
-    width: 5rem;
-    border: 7px solid black;
-    border-radius: 10%;
-    border-style: double;
-}
-.logoTitulo{ 
-
-    font-size: 3rem; 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     position: relative;
-    left: 10vw;
-    background: none;
+    padding: 1rem;
+}
+input{    
+height: 2rem;
+position: relative;
+top: 1rem;
 }
 
-.chango { 
-    position: fixed;
-
-    left: 90%;
+.chango {   
+position: absolute;
+left: 90vw;
+width: 50rem;
+top: 0;
+}
+a {
+text-decoration: none;
+color: black;
+font-size: 1.5rem;   
+}
+a:hover {
+text-decoration: none;
+color: black;
+font-size: 2rem;
 }
 
-.buscador { 
-
-    position: absolute;
-    top: 3.5%;
-    left: 70%;
-}   
-.buscador input{ 
-
-    width: 15vw;
-
-    height: 3vh;
-}
-
-.botonCompras {
-
+/* Main */
+main .col-2 {
     font-weight: bold;
     border-radius: 10%;
     font-size: 1rem;
@@ -76,25 +46,40 @@ height: 500px;
     background: none;
     background-color: green;
     color: white;
-    }
+}
+main .col-2:hover {
+    font-weight: bold;
+    border-radius: 10%;
+    font-size: 1rem;
+    padding: 5px;
+    background: none;
+    background-color: green;
+    color: white;
+    width: 15rem;
+    height: 3rem;
+}
+
+main Img{
+
+    width: 25rem;
+    height: 25rem;
+}
+
     
 /* Footer */   
 
-.pie{ 
-    
-
-    display: grid;
-    grid-template-columns: 15% 65% 19%;
-    position: fixed;
-    top: 90vh;
-    width: 100%;
+footer { 
+    position: relative;
     background-color: bisque;
 }
 
+.imgTurbo { 
 
-.pie h4{
+width: 30rem;
+height: 10rem;
+}
 
-    color: red;
-    text-decoration-line: underline;
-    font-size: 2rem;
+footer img {
+width: 3rem;
+height: 3rem;
 }

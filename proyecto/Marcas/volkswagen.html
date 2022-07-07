@@ -11,40 +11,47 @@
 <body>
     <!-- Header -->
 
-    <header class="encabezado">
-        <div class="logo">
-    <a href="../index.html"><img src="../img/icons8-turbocompresor-50.png" alt="turbo"></a>
-        </div>
-        
-    <h1 class="logoTitulo">Autoperformance</h1>
+    <header class="conteiner-fluid">
+
+        <div class="row">  
     
-
-<form class="buscador">
-
-    <input type="text" id="buscar" placeholder="Buscar">
-
-
-</form>
-
-   <div class="chango">
-       <label for="Chango"><img src="../img/icons8-carrito-de-la-compra-cargado.gif" width="50" alt="Chango"></label>
-   </div>
-
-</header>
+            <!-- <div class="logo"> -->  
+           <a href="../index.html" class="col-1"><img class="" src="../img/icons8-turbocompresor-50.png" alt="turbo"></a>
+           <!-- </div> -->  
+    
+           <h1 class="col-3">Autoperformance</h1>
+        
+    
+     <!--<form class="buscador"> --> 
+    
+           <input type="text" id="buscar" placeholder="Buscar" class="col-3">
+    
+    
+     <!--</form>--> 
+    
+      <div class="chango">  
+           <img src="../img/icons8-carrito-de-la-compra-cargado.gif" width="50" alt="Chango" class="col-1">
+      </div>  
+        </div>  
+    
+    </header>
+    
+    <div class="conteiner">
+        
+        <a href="../productos.html"><button> <p class="row-1" >Atras</p></button></a>
+    
+    </div>
 
 <!-- Main -->
-<div>
-    
-    <a href="../productos.html"><button> <p class="botonAtras1">Atras</p></button></a>
 
-</div>
-    <main>
-        <main class=" productosVa">
-            <div class="productosAudi">
+    
+        <main class="container">
             
+            <hr>
                 <img src="../img/bombavolk.jpg"  alt="Bomba de combustible nafta apta E85 110lph FTX" class="AudiImg">
-                <h2 class="AudiTitulo">Bomba de combustible nafta apta E85 110lph FTX</h2>
-                <p class="AudiDescrip">La bomba de combustible interna FTX-FPI-110 está diseñada para satisfacer todos esos proyectos que gusten de adicionar combustibles con agregados de etanol en el tanque.
+                <div class="row">
+                <h2 class="col-6">Bomba de combustible nafta apta E85 110lph FTX</h2>
+                <p class="col-6">La bomba de combustible interna FTX-FPI-110 está diseñada para satisfacer todos esos proyectos que gusten de adicionar combustibles con agregados de etanol en el tanque.
 
                     ESPECIFICACIONES
                     Combustible: Nafta, E85 y Etanol.
@@ -61,15 +68,16 @@
                     Marca: FTX
                     Modelo: In-Tank Fuel Pump 110LPH E85
                     Codigo: FTX-FPI-110</p>
-                <button class="botonCompras">Comprar</button>
+                <button class="col-2">Comprar</button>
                 
             </div>
     
-            <div class="productosAudi">
+            <hr>
             
-                <img src="../img/sopotevolk.jpg"  alt="Soporte bobinas RED para VW Gol Saveiro Gacel AP 1.6 1.8" class="AudiImg">
-                <h2 class="AudiTitulo">Soporte bobinas RED para VW Gol Saveiro Gacel AP 1.6 1.8</h2>
-                <p class="AudiDescrip">Soporte de aluminio apto para 4 bobinas RED de VW / Audi 2.0T 
+                <img src="../img/sopotevolk.jpg"  alt="Soporte bobinas RED para VW Gol Saveiro Gacel AP 1.6 1.8" class="row">
+                <div class="row">
+                <h2 class="col-6">Soporte bobinas RED para VW Gol Saveiro Gacel AP 1.6 1.8</h2>
+                <p class="col-6">Soporte de aluminio apto para 4 bobinas RED de VW / Audi 2.0T 
 
                     Optimá calidad de aluminio 5052.
                     
@@ -78,15 +86,16 @@
                     Marca: Punto Metal
                     
                     Codigo: AB002</p>
-                <button class="botonCompras">Comprar</button>
+                <button class="col-2">Comprar</button>
                 
             </div>
     
-            <div class="productosAudi">
+            <hr>
             
-                <img src="../img/poleavolk.jpg"  alt="Polea rueda fonica p sensor 60-2 VW AP Negra Collino" class="AudiImg">
-                <h2 class="AudiTitulo">Polea rueda fonica p sensor 60-2 VW AP Negra Collino</h2>
-                <p class="AudiDescrip">Polea vw ap 100 mm + rda fonica 60-2 + porta sensor
+                <img src="../img/poleavolk.jpg"  alt="Polea rueda fonica p sensor 60-2 VW AP Negra Collino" class="row">
+                <div class="row">
+                <h2 class="col-6">Polea rueda fonica p sensor 60-2 VW AP Negra Collino</h2>
+                <p class="col-6">Polea vw ap 100 mm + rda fonica 60-2 + porta sensor
                     peso total: 470 grs
                     polea en v para vw motor audi 8 válvulas ap. Diámetro 100mm.
                     Polea graduada para puesta a punto hecha en aluminio 6061t6
@@ -98,46 +107,50 @@
                     Cantidad de dientes: 56 + 4. (60 dientes menos 4 sin tallar)
                     Color: Negro
                     Codigo: CCC-0004</p>
-                <button class="botonCompras">Comprar</button>
+                <button class="col-2">Comprar</button>
                 
             </div>
             
-            <div class="productosAudi">
+            <hr>
             
-                <img src="../img/esparragosvolk.jpg"  alt="Esparragos cigueñal Bancada VW Audi AP 1.6 8v 1.8T 20v ARP" class="AudiImg">
-                <h2 class="AudiTitulo">Esparragos cigueñal Bancada VW Audi AP 1.6 8v 1.8T 20v ARP</h2>
-                <p class="AudiDescrip">KIT DE ESPARRAGOS DE BANCADA PARA VW AP 8V 16V Y 1.8T 20V
+                <img src="../img/esparragosvolk.jpg"  alt="Esparragos cigueñal Bancada VW Audi AP 1.6 8v 1.8T 20v ARP" class="row">
+                <div class="row">
+                <h2 class="col-6">Esparragos cigueñal Bancada VW Audi AP 1.6 8v 1.8T 20v ARP</h2>
+                <p class="col-6">KIT DE ESPARRAGOS DE BANCADA PARA VW AP 8V 16V Y 1.8T 20V
 
                     Cada kit de espárragos principales ARP supera las especificaciones aeroespaciales más estrictas. Estos espárragos principales más fuertes ayudarán a prevenir la flexión del cigüeñal y le brindarán un torque mucho mejor para todas las tapas principales. Cuando se trata de la parte interna de su motor, no desea cortar esquinas ARP lo ayudará a aprovechar al máximo su construcción con hardware y sujetadores de calidad.
                     Todos los kits vienen completos con todos los pernos principales necesarios, arandelas de tierra paralelas endurecidas y tuercas de calidad aeroespacial.
                     Marca: ARP
                     Código: 204-5402</p>
-                <button class="botonCompras">Comprar</button>
+                <button class="col-2">Comprar</button>
                 
             </div>
         
     </main>
 
 <!-- Footer -->  
-<footer class="pie">
-  
-    <div class="logoFooter">
-      
-        <h3>Autoperformance</h3>
-      <img src="../img/icons8-turbocompresor-50.png" alt="turbo">
+<footer class="container-fluid">
+    
 
+    <div class="row">
       
-    </div>
+        <h3 class="col-2">Autoperformance</h3>
 
-       <h4>amor por la velocidad...</h4>
+        
+      <img class="col-1" src="../img/icons8-turbocompresor-50.png" alt="turbo">
+         
+      
+    
+
+       <h4 class="col-3">amor por la velocidad...</h4>
 
        
-    <div class="imgRedes">
-        <h2>Nuestras redes</h2>
+    
+        <h2 class="col-3">Nuestras redes</h2>
 
-        <a href="https://www.facebook.com/" ><img src="../img/icons8-facebook-50.png" alt="facebook"></a>
-        <a href="https://www.instagram.com/"><img src="../img/icons8-instagram-50.png" alt="instagram"></a>
-        <a href="https://www.whatsapp.com/?lang=es"><img src="../img/icons8-whatsapp-50.png" alt="whatsapp"></a>
+        <a href="https://www.facebook.com/"  class="col-1"><img src="../img/icons8-facebook-50.png" alt="facebook"></a>
+        <a href="https://www.instagram.com/" class="col-1"><img src="../img/icons8-instagram-50.png" alt="instagram"></a>
+        <a href="https://www.whatsapp.com/?lang=es" class="col-1"><img src="../img/icons8-whatsapp-50.png" alt="whatsapp"></a>
     
     </div>
 
